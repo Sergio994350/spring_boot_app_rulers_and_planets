@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Все правители</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!--    ссылка на стили от bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="css/main.css">-->
+</head>
+<body>
+<!-- header -->
+<header th:insert="blocks/header :: header"></header>
+
+
+<!-- body -->
+<div class="container mt-5">
+    <h1>Все правители</h1>
+    <!--    циклом th:each перебираем массив -->
+    <div th:each="element : ${rulers}" class="alert alert-info mt-2">
+        <h4 th:text="'Имя правителя: ' + ${element.name}"></h4>
+        <p th:text="'Возраст правителя: ' + ${element.age}"></p>
+        <p th:text="'id правителя: ' + ${element.id}"></p>
+
+        <form th:action="'/rulers/' + ${element.id} + '/remove'" method="post">
+            <button class="btn btn-primary" type="submit">Уволить Правителя</button>
+        </form>
+    </div>
+</div>
+
+
+
+<!-- footer -->
+<footer th:insert="blocks/footer :: footer"></footer>
+
+</body>
+</html>

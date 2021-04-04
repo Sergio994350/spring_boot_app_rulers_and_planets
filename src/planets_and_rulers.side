@@ -1,0 +1,427 @@
+{
+  "id": "043f762c-4732-4148-96af-ca9236c9aa5f",
+  "version": "2.0",
+  "name": "planets_and_rulers",
+  "url": "http://localhost:8080/",
+  "tests": [{
+    "id": "d0c2d1fb-3ccf-4802-a45d-2a088088081e",
+    "name": "selenium test interface rulers and planets",
+    "commands": [{
+      "id": "ec7343cc-474d-4c78-938f-d3a499580e46",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3f42440-2d79-42a8-b391-a1b9f4e50788",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "794x486",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07269c6a-85a8-44ea-ac92-420bb578bf63",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Правители",
+      "targets": [
+        ["linkText=Правители", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Правители')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rulers')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Правители')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b74f67-a3bb-4dcc-8976-757a6bfb22c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Добавить Правителя",
+      "targets": [
+        ["linkText=Добавить Правителя", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить Правителя')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rulers/add')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить Правителя')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6b4783-2d6c-4dd8-98de-7a58d146be17",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=10 молодых Правителей",
+      "targets": [
+        ["linkText=10 молодых Правителей", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'10 молодых Правителей')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rulers/young')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'10 молодых Правителей')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45a968cd-0d55-4785-99c2-de49ad538cdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Правители без планет",
+      "targets": [
+        ["linkText=Правители без планет", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Правители без планет')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/no-planet-rulers')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Правители без планет')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7539bb2-0f5f-47f1-83e2-a14d3077e7d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Планеты",
+      "targets": [
+        ["linkText=Планеты", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Планеты')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/planets')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Планеты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35f19b41-9bfb-4938-af99-b2b421831c78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Добавить Планету",
+      "targets": [
+        ["linkText=Добавить Планету", "linkText"],
+        ["css=.nav-item:nth-child(7) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить Планету')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/planets/add')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить Планету')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "258335cf-925f-4895-9ef6-d2b7a322743a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Назначения",
+      "targets": [
+        ["linkText=Назначения", "linkText"],
+        ["css=.nav-item:nth-child(8) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Назначения')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/order')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Назначения')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2a997fc-827a-422d-9239-1d28c7dfbaa8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Правители",
+      "targets": [
+        ["linkText=Правители", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Правители')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rulers')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Правители')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b3707c0-5f03-44bd-8d4f-6d6b33f88965",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=10 молодых Правителей",
+      "targets": [
+        ["linkText=10 молодых Правителей", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'10 молодых Правителей')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rulers/young')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'10 молодых Правителей')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae2d34a2-246d-4aa0-a8d0-d75b2083bcc7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Добавить Правителя",
+      "targets": [
+        ["linkText=Добавить Правителя", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить Правителя')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rulers/add')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить Правителя')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "814b6eb7-e382-479a-8926-fed5ab6c643c",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b86163b-198b-40b3-9861-b4df8c2137fd",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde3a976-affc-4d9d-a85f-c0b0f5d2d1fd",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Pavel2"
+    }, {
+      "id": "0a446f83-b3d2-4bef-9e54-63f436ed1e97",
+      "comment": "",
+      "command": "click",
+      "target": "name=age",
+      "targets": [
+        ["name=age", "name"],
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='age']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "633134c2-a535-4d5e-ab80-f826aa71f68a",
+      "comment": "",
+      "command": "type",
+      "target": "name=age",
+      "targets": [
+        ["name=age", "name"],
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='age']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "33"
+    }, {
+      "id": "96d1d741-9a8c-4f70-854f-805a373158b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Добавить Правителя')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47a8f565-ef73-479c-9f4d-0cff7d1775ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Правители",
+      "targets": [
+        ["linkText=Правители", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Правители')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rulers')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Правители')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "953abf54-6fb2-4e3c-a3ef-de2852660972",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Добавить Планету",
+      "targets": [
+        ["linkText=Добавить Планету", "linkText"],
+        ["css=.nav-item:nth-child(7) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить Планету')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/planets/add')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить Планету')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a50d676-7241-44cb-8733-b1a8796296c8",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11db5851-1e73-43a3-ad9e-f5ac90e585e5",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Mars333"
+    }, {
+      "id": "a957ad8c-68b8-4110-b3ef-fbe3aa311973",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Добавить Планету')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0945f9b2-29d0-489c-adbb-bdf18e6171a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Планеты",
+      "targets": [
+        ["linkText=Планеты", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Планеты')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/planets')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Планеты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "100b5aaf-9d71-4aee-84f9-ebd523a16e4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Правители",
+      "targets": [
+        ["linkText=Правители", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Правители')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rulers')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Правители')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1501e25-4e2e-4187-b359-75811a68c3a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Назначения",
+      "targets": [
+        ["linkText=Назначения", "linkText"],
+        ["css=.nav-item:nth-child(8) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Назначения')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/order')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Назначения')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c8b4f23-521f-4f1f-9c33-e42225e6cb2c",
+      "comment": "",
+      "command": "click",
+      "target": "name=ruler_id",
+      "targets": [
+        ["name=ruler_id", "name"],
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='ruler_id']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45d6e54f-1791-47f5-b407-5fb444ef9c5b",
+      "comment": "",
+      "command": "type",
+      "target": "name=ruler_id",
+      "targets": [
+        ["name=ruler_id", "name"],
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='ruler_id']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "46"
+    }, {
+      "id": "b6f8cdcd-f566-466d-ba2d-c0051f4a33b7",
+      "comment": "",
+      "command": "click",
+      "target": "name=planet_id",
+      "targets": [
+        ["name=planet_id", "name"],
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='planet_id']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fe76fc4-dfda-4dbe-9971-11fe1e764900",
+      "comment": "",
+      "command": "type",
+      "target": "name=planet_id",
+      "targets": [
+        ["name=planet_id", "name"],
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='planet_id']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "48"
+    }, {
+      "id": "86b957e5-a66c-44a5-806f-231968cfe92a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Назначить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccf57675-bf07-43f7-b5a2-6e583a3edfaa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Планеты",
+      "targets": [
+        ["linkText=Планеты", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Планеты')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/planets')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Планеты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6b4c0804-ec7f-455d-9b43-2d1bd404b4ae",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d0c2d1fb-3ccf-4802-a45d-2a088088081e"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
